@@ -11,8 +11,7 @@ public class Scheduler {
         if (FoliaSupport.IS_ACTIVE) {
             plugin.getLogger().info("Folia found, using FoliaScheduler");
             return new FoliaScheduler(plugin);
-        } else {
-            return new BukkitScheduler(plugin);
         }
+        return new BukkitScheduler(plugin);
     }
 }
