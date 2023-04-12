@@ -9,6 +9,7 @@ public class Scheduler {
 
     public static IScheduler createScheduler(final JavaPlugin plugin) {
         if (FoliaSupport.IS_ACTIVE) {
+            plugin.getLogger().info("Folia found, using FoliaScheduler");
             return new FoliaScheduler(plugin);
         } else {
             return new BukkitScheduler(plugin);
