@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>BukkitScheduler-parent</artifactId>
+        <artifactId>bukkitscheduler-parent</artifactId>
         <groupId>pl.panszelescik</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>BukkitScheduler-impl-bukkit</artifactId>
+    <artifactId>bukkitscheduler-impl-bukkit</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -31,7 +31,7 @@
     <dependencies>
         <dependency>
             <groupId>pl.panszelescik</groupId>
-            <artifactId>BukkitScheduler-api</artifactId>
+            <artifactId>bukkitscheduler-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
