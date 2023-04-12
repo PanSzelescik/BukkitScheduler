@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.panszelescik</groupId>
-    <artifactId>bukkitscheduler</artifactId>
+    <artifactId>bukkitscheduler-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>BukkitScheduler</name>
 
     <modules>
+        <module>bukkitscheduler</module>
         <module>bukkitscheduler-api</module>
-        <module>bukkitscheduler-impl</module>
         <module>bukkitscheduler-impl-bukkit</module>
         <module>bukkitscheduler-impl-folia</module>
     </modules>
